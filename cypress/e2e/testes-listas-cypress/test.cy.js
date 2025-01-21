@@ -43,7 +43,7 @@ describe('Testes da Agenda de Contatos', () => {
     cy.contains('João da Silva')
         .parents('.sc-beqWaB') // Seleciona o contêiner do contato
         .within(() => {
-        // Encontra e clica no botão "Deletar"
+        // Encontra e clica no botão "Deletarr"
         cy.get('button.delete')
             .should('exist')
             .and('be.visible')
